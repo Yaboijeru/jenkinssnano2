@@ -16,5 +16,6 @@ RUN find /var/www/html -type d -exec chmod g+s {} \;
 #Install mysql untuk PHP
 RUN docker-php-ext-install mysqli pdo pdo_mysql 
 
+
 #Membuka port 80
 EXPOSE 80 
